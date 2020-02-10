@@ -19,51 +19,122 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
+<body style="background-image: url('images/seedprod.com-8.jpg');">
 
-	<div class="limiter">
-		<div class="d-flex">
-			<div class="container-logg col-md-5" style="background-image: url('images/seedprod.com-8.jpg');">
-
+	<div class="limiter"  >
+		  <nav class="navbar navbar-expand-lg navbar-light bg-info mt-5">
+          <button class="navbar-toggler" data-toggle="collapse" data-target=".navbarNav" ><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse navbarNav">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-2">
+                <input class="form-control mr-sm-2" placeholder="Search"></input>
+                <button class=" btn btn-outline-warning my-2 my-sm-1">Search</button>
+              </form>
+            </div>
+          </div>
+    </nav>
+		<div class="d-flex container-logg">
+			<div class="col-md-4 text-info" >
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</div>
-			<div class="col-sm-7 card">
-			  <h1 class="display-5 card-title text-center my-4">REGISTER NOW!</h1>
-			  <form class="bg-dark card-body rounded my-4">
-			  	<div class="float-right btn btn-sm btn-outline-info">STEP 1</div>
-			 	 <div class="d-flex mt-3">
-			  		<div class="col-sm-4">
-			  			<div class="form-group">
-			  				<input class="form-control mr-4" type="text" id="Surname" placeholder="Enter Surname">
-			  			</div>
-			  			<br><br>
-			  			<div class="form-group">
-			  				<input class="form-control mr-4" type="email" id="Email" placeholder="Enter Email">
-			  			</div>
-			  			<br><br>
-			  			<div class="form-group">
-			  				<input class="form-control mr-4" type="text" id="Country" placeholder="Enter your Country">
-			  			</div>
-			  			<br><br>
+			<div class="col-sm-8 card p-l-55 p-r-55 p-t-30 p-b-23" style="background-image: url('images/seedprod.com-11.jpg');">
+			  <h1 class="logg-form-head text-center my-4">REGISTER NOW!</h1>
+			  <form class="logg-form validate-form rounded p-4 col-sm-10 m-auto" style="background: rgba(034,005,33,0.6);">
+			  	<div class=" btn btn-sm btn-outline-info">STEP 1</div>
+			 	 <div class="d-flex m-auto">
+
+			  		<div class="col-sm-5"><!-- begining of form -->
+			  		<div class="wrap-input validate-input m-b-23" data-validate = "Fullname is reauired">
+						<span class="label-input">Fullname</span>
+						<input class="input" type="text" name="Fullname" placeholder="Type your fullname">
+						<span class="focus-input" data-symbol="&#xf206;"></span>
+					</div>
+
+					<div class="wrap-input validate-input" data-validate="Password is required">
+						<span class="label-input">Password</span>
+						<input class="input" type="password" name="pass" placeholder="Type your password">
+						<span class="focus-input" data-symbol="&#xf190;"></span>
+					</div>
+
+					<div class="wrap-input validate-input" data-validate="Country is required">
+						<span class="label-input">Country</span>
+						<input class="input" type="text" name="country" placeholder="Type your country">
+						<span class="focus-input" data-symbol="&#xf190;"></span>
+					</div>
+
+					<div class="wrap-input validate-input" data-validate="Number is required">
+						<span class="label-input">Number</span>
+						<input class="input" type="num" name="num" placeholder="Type your Phonenumber">
+						<span class="focus-input" data-symbol="&#xf095;"></span>
+					</div>
 			  		</div>
-			  		<div class="col-sm-4">
-			  			<div class="form-group">
-			  				<input class="form-control mr-4" type="text" id="Lastname" placeholder="Enter Lastname">
-			  			</div>
-			  			<br><br>
-			  		    <div class="form-group">
-                			<select class="form-control col-sm-8" id="gender">
+
+			  		<div class="col-sm-5">
+			  						<div class="wrap-input validate-input m-b-23" data-validate = "Username is reauired">
+						<span class="label-input">Username</span>
+						<input class="input" type="text" name="username" placeholder="Type your username">
+						<span class="focus-input" data-symbol="&#xf206;"></span>
+					</div>
+
+					<div class="wrap-input validate-input" data-validate="Password is required">
+						<span class="label-input">Retype Password</span>
+						<input class="input" type="password" name="pass" placeholder="Type your password">
+						<span class="focus-input" data-symbol="&#xf190;"></span>
+					</div>
+
+					<div class="wrap-input validate-input" data-validate="State is required">
+						<span class="label-input">State</span>
+						<input class="input" type="password" name="state" placeholder="Type your State">
+						<span class="focus-input" data-symbol="&#xf190;"></span>
+					</div>
+          				 <br><br>
+			  		    <div class=" validate-input">
+                			<select class="col-sm-8 btn btn-outline-info" id="gender">
                 				<option>--GENDER--</option>
                 				<option>Male</option>
                 				<option>Female</option>
                				</select>
           				 </div>
-          				 <br><br>
-          				 <div class="form-group">
-			  				<input class="form-control mr-4" type="text" id="City" placeholder="Enter your City">
-			  			</div>
-			  			<br><br>
 			  		</div>
 			  	</div>
+			  	<br>
+					<div class="container-logg-form-btn">
+						<div class="wrap-logg-form-btn">
+							<div class="logg-form-bgbtn"></div>
+							<button class="logg-form-btn">
+								<span><i class="fa fa-arrow"></i></span>
+								SUBMIT
+							</button>
+						</div>
+					</div>
+
+					<div class="flex-col-c p-t-15">
+						<span class="txt1 p-b-17">
+							I already have an account.
+						</span>
+
+						<a class="btn btn-info" href="index.html" >
+							LOGIN!
+						</a>
+					</div>
 			  </form>
 			</div>
 		</div>
